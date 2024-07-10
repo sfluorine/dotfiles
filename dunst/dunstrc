@@ -1,0 +1,25 @@
+[global]
+font = Iosevka 11
+frame_width = 2
+frame_color = "#c1666a"
+separator_height = 2
+line_height = 10
+padding = 10
+horizontal_padding = 10
+corner_radius = 10
+offset = 20x60
+
+[urgency_low]
+background = "#2E3440"
+foreground = "#D8DEE9"
+timeout = 5
+
+[urgency_normal]
+background = "#3B4252"
+foreground = "#ECEFF4"
+timeout = 10
+
+[urgency_critical]
+background = "#BF616A"
+foreground = "#ECEFF4"
+timeout = 0
