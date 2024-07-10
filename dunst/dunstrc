@@ -7,7 +7,7 @@ line_height = 10
 padding = 10
 horizontal_padding = 10
 corner_radius = 10
-offset = 20x60
+offset = 22x60
 
 [urgency_low]
 background = "#2E3440"
