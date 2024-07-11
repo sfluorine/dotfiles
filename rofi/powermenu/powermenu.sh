@@ -10,7 +10,7 @@
 ## style-1   style-2   style-3   style-4   style-5
 
 # Current Theme
-dir="$HOME/.config/rofi/powermenu/type-1"
+dir="$HOME/.config/rofi/powermenu"
 theme='style-1'
 
 # CMDs
@@ -93,11 +93,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+        betterlockscreen -l dim
         ;;
     $hibernate)
 		run_cmd --hibernate
