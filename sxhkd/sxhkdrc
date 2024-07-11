@@ -2,6 +2,10 @@
 super + Return
 	kitty
 
+# toggle do not disturb
+super + shift + d
+    ~/.config/dunst/toggle_dnd.sh
+
 # program launcher
 super + d
 	~/.config/rofi/launcher/launcher.sh
@@ -67,6 +71,10 @@ super + {_,shift + }{1-9,0}
 #
 # move/resize
 #
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -15 0,bottom 0 15,top 0 -15,right 15 0}
 
 # move a floating window
 super + {Left,Right,Up,Down}
