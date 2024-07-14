@@ -3,7 +3,7 @@ font = Iosevka 11
 frame_width = 2
 frame_color = "#c1666a"
 separator_height = 2
-line_height = 10
+line_height = 6
 max_icon_size = 100
 icon_corner_radius = 5
 padding = 10
@@ -14,12 +14,12 @@ offset = 22x60
 [urgency_low]
 background = "#2E3440"
 foreground = "#D8DEE9"
-timeout = 5
+timeout = 3
 
 [urgency_normal]
 background = "#3B4252"
 foreground = "#ECEFF4"
-timeout = 10
+timeout = 4
 
 [urgency_critical]
 background = "#BF616A"

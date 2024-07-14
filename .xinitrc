@@ -1,3 +1,5 @@
+xset s off
+xset -dpms
 xsetroot -cursor_name left_ptr
 
 /usr/libexec/polkit-gnome-authentication-agent-1 &

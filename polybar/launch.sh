@@ -11,7 +11,6 @@ echo "---" | tee -a /tmp/polybar.log
 polybar logo-bar 2>&1 | tee -a /tmp/polybar.log & disown
 polybar workspace-bar 2>&1 | tee -a /tmp/polybar.log & disown
 polybar window-bar 2>&1 | tee -a /tmp/polybar.log & disown
-polybar spotify-bar 2>&1 | tee -a /tmp/polybar.log & disown
 polybar date-bar 2>&1 | tee -a /tmp/polybar.log & disown
 polybar keyboard-bar 2>&1 | tee -a /tmp/polybar.log & disown
 polybar wlan-bar 2>&1 | tee -a /tmp/polybar.log & disown
